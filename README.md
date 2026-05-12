@@ -1,7 +1,6 @@
-````md
 <div align="center">
 
-# ⚡ ANGEL ARED PÉREZ RODRÍGUEZ ⚡
+# ⚡ ANGEL ARED PEREZ RODRIGUEZ ⚡
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=FullStack+Developer;Flutter+Developer;Django+Developer;IoT+Enthusiast;Future+Software+Architect" />
 
@@ -9,9 +8,6 @@
 
 ---
 
-```bash
-> whoami
-````
 
 ```txt
 💻 FullStack Developer
@@ -71,9 +67,9 @@
 
 <div align="center">
 
-![GitHub Activity](https://github-readme-stats.vercel.app/api?username=aredPR&show_icons=true)
+<!-- [![AredPR's GitHub stats](https://github-readme-stats.vercel.app/api?username=aredPR&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats) -->
 
-<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aredPR\&layout=compact\&theme=chartreuse-dark\&bg_color=000000) -->
+[![GitHub Streak](https://streak-stats.demolab.com/?user=aredPR&theme=soft-green)](https://git.io/streak-stats)
 
 </div>
 
@@ -146,5 +142,5 @@ sudo apt install success
 ## 🚀 ACCESS GRANTED 🚀
 
 </div>
-```
+
 

@@ -71,9 +71,9 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aredPR\&show_icons=true\&theme=chartreuse-dark\&bg_color=000000)
+![GitHub Activity](https://github-readme-stats.vercel.app/api?username=aredPR&show_icons=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aredPR\&layout=compact\&theme=chartreuse-dark\&bg_color=000000)
+<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aredPR\&layout=compact\&theme=chartreuse-dark\&bg_color=000000) -->
 
 </div>
 

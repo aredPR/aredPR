@@ -1,6 +1,6 @@
 import { Button } from "@/components/Button"
 import { ArrowRight, ChevronDown, Download} from "lucide-react";
-import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
+import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa6";
 
 const skills = [

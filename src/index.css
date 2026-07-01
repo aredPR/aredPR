@@ -1,28 +1,28 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #0f1418;
-  --color-foreground: #f0f2f5;
+  --color-background: #050814;
+  --color-foreground: #edf6ff;
 
-  --color-card: #141a1f;
+  --color-card: #0b1024;
 
-  --color-primary: #20b2a6;
+  --color-primary: #4db8ff;
   --color-primary-foreground: #ffffff;
 
-  --color-secondary: #1f2830;
-  --color-secondary-foreground: #20b2a6;
+  --color-secondary: #111a35;
+  --color-secondary-foreground: #8fdcff;
 
-  --color-muted: #252e37;
-  --color-muted-foreground: #7a8491;
+  --color-muted: #17203a;
+  --color-muted-foreground: #91a4c7;
 
-  --color-border: #242b32;
+  --color-border: #24365f;
 
   --radius: 0.75rem;
 
-  --color-highlight: #f5a623;
-  --color-surface: #1a2329;
+  --color-highlight: #b9eaff;
+  --color-surface: #0d1530;
 }
-
+ 
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -41,26 +41,27 @@
 
 @layer components {
   .glass {
-    background-color: color-mix(in srgb, var(--color-surface) 50%, transparent);
-    backdrop-filter: blur(16px);
-    border: 1px solid color-mix(in srgb, var(--color-border) 50%, transparent);
+    background-color: color-mix(in srgb, var(--color-surface) 45%, transparent);
+    backdrop-filter: blur(18px);
+    border: 1px solid color-mix(in srgb, var(--color-primary) 25%, transparent);
   }
 
   .glass-strong {
-    background-color: color-mix(in srgb, var(--color-surface) 80%, transparent);
-    backdrop-filter: blur(24px);
-    border: 1px solid color-mix(in srgb, var(--color-border) 60%, transparent);
+    background-color: color-mix(in srgb, var(--color-surface) 78%, transparent);
+    backdrop-filter: blur(26px);
+    border: 1px solid color-mix(in srgb, var(--color-primary) 40%, transparent);
   }
 
   .glow-text {
-    text-shadow: 0 0 30px
-      color-mix(in srgb, var(--color-primary) 50%, transparent);
+    text-shadow:
+      0 0 12px color-mix(in srgb, var(--color-primary) 70%, transparent),
+      0 0 32px color-mix(in srgb, var(--color-primary) 45%, transparent);
   }
 
   .glow-border {
-    box-shadow: 0 0 20px
-        color-mix(in srgb, var(--color-primary) 20%, transparent),
-      inset 0 0 20px color-mix(in srgb, var(--color-primary) 5%, transparent);
+    box-shadow:
+      0 0 22px color-mix(in srgb, var(--color-primary) 30%, transparent),
+      inset 0 0 20px color-mix(in srgb, var(--color-primary) 10%, transparent);
   }
 }
 
@@ -104,7 +105,7 @@
     }
   }
 
-   @keyframes marquee {
+  @keyframes marquee {
     0% {
       transform: translateX(0);
     }
@@ -167,8 +168,8 @@
   }
 
   .animated-border:hover {
-    background-color: color-mix(in srgb, #26c4b8 15%, transparent);
+    background-color: color-mix(in srgb, #4db8ff 15%, transparent);
     backdrop-filter: blur(16px);
-    box-shadow: 0 0 20px color-mix(in srgb, #26c4b8 20%, transparent);
+    box-shadow: 0 0 24px color-mix(in srgb, #4db8ff 35%, transparent);
   }
 }
